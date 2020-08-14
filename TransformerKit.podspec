@@ -2,12 +2,13 @@
 
 Pod::Spec.new do |s|
   s.name     = 'TransformerKit'
-  s.version  = '1.1.1'
+  s.version  = '1.1.2'
   s.license  = 'MIT'
   s.summary  = 'A block-based API for NSValueTransformer, with a growing collection of useful examples.'
   s.homepage = 'https://github.com/mattt/TransformerKit'
   s.authors  = { 'Mattt' => 'mattt@me.com' }
   s.source   = { git: 'https://github.com/mattt/TransformerKit.git', tag: s.version }
+  s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
 
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.7'
