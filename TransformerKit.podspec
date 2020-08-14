@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary  = 'A block-based API for NSValueTransformer, with a growing collection of useful examples.'
   s.homepage = 'https://github.com/mattt/TransformerKit'
   s.authors  = { 'Mattt' => 'mattt@me.com' }
-  s.source   = { git: 'https://github.com/mattt/TransformerKit.git', tag: s.version }
+  s.source   = { git: 'git@github.com:milanv7/TransformerKit.git', tag: s.version }
   s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
 
   s.ios.deployment_target = '5.0'
